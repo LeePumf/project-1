@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title id="archive">form</title>
+        <link href="index.css" rel="stylesheet">
+        
+
+    </head>
+    <body>
+        <div id="banner1"></div>
+        <div id="banner2"></div>
+        <header class="navigation">
+            <h3>Navigation</h3>
+            <nav id="links" >
+                <a href="Home.html" aria-label="Home">Home</a>
+                <a href="investigation tabs.html" aria-label="Investigations">Investigations</a>
+                <a href="Submissions.html" aria-label="Submissions">Submissions</a>
+            </nav>
+        </header>
+    <section id="form">
+        <h2 id="formtitle">Submit your details and concerns</h2>
+        
+        <form method="post" action="complete.html" id="formtitle">
+            <div>
+                <label id="input">Name:</label>
+                <input type="text" name="name" placeholder="Enter your full name" required>
+            </div>
+            <div>
+                <Email id="input">Email:</Email>
+                <input type="email" name="email" placeholder="Email address require" required>
+            </div>
+            <div>
+                <label id="input">Rank:</label><input type="text" id="rank" list="ranks" name="rank">
+                    <datalist id="ranks">
+                        <option value="Acolyte"></option>
+                        <option value="Throne Agent"></option>
+                        <option value="Legate Investigator"></option>
+                        <option value="Interrogator"></option>
+                        <option value="High Interrogator"></option>
+                        <option value="Clasified"></option>
+                    </datalist>
+            </div>
+    <br>
+            
+    <label for="Moreinfo">Provide reasons for concern</label>
+            <br>
+            <textarea id="feedback" name="feedback"  placeholder="Please enter your concerns." ></textarea>
+            <br>
+            <input type="submit">
+        </form>
+
+    <div>
+        <p>All investigations will be reviewed in due time. The Emperor of mankind thanks you for your support.</p>
+    </div>
+
+</section>
+
+<picture>
+    <img class="center" id="emperor" height="400px" width="350px" src="https://i.pinimg.com/originals/b0/2a/a3/b02aa32049f3e7499a70c089c0f32a9f.jpg">
+</picture>
+
+
+
+
+<div>
+    <footer>
+        <div id="address">
+            <div id="address-hide">
+               <p>Imperial palice, Holy Tera</p>
+            </div>
+        </div>
+        
+        <nav id="social-links">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit us on Facebook (opens in a new tab)">
+                <i class="fa-brands fa-facebook-f"></i>Facebook</a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit us on instagram (opens in a new tab)">
+                <i class="fa-brands fa-instagram"></i>Instagram</a>
+            <a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit us on Twitter  (opens in a new tab)">
+                <i class="fa-brands fa-twitter"></i>Twitter</a>
+            </nav>
+        
+        
+    </footer>
+</div>
+    </body>
