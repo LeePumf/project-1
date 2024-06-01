@@ -294,7 +294,7 @@
               #info {
                 text-align:left;
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 align-items: right;
                 gap: 100px;
             
