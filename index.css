@@ -167,7 +167,9 @@
         }
 
         #investigation {
-            max-width:40% ;
+              max-width:40% ;
+              padding-left: 5%;
+              padding-right: 5%;
         }
 
         #feedback {
