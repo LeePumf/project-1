@@ -294,6 +294,7 @@
                 position:absolute;
                 top:0;
                 left:0;
+                width:0;     
                 height:100%;
                 background: url(https://i.pinimg.com/originals/b8/30/b2/b830b25ebfc38a61ea146aa488a3cc77.jpg) no-repeat;
                 z-index: -9999;
@@ -303,6 +304,7 @@
                 position:absolute;
                 top:0;
                 right:0;
+                width:0;   
                 height:100%;
                 background: url(https://i.pinimg.com/originals/b8/30/b2/b830b25ebfc38a61ea146aa488a3cc77.jpg) no-repeat;
                 z-index: -9999;
